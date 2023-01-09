@@ -9,7 +9,7 @@
     <breadcrumb id="breadcrumb-container" class="breadcrumb-container"/>
     <div class="right-menu">
       <template v-if="device !== 'mobile'">
-        <search id="header-search" class="right-menu-item" />
+        <!-- <search id="header-search" class="right-menu-item" /> -->
         <screenfull id="screenfull" class="right-menu-item hover-effect" />
       </template>
       <el-dropdown
@@ -21,9 +21,9 @@
           <router-link to="/">
             <el-dropdown-item>主页</el-dropdown-item>
           </router-link>
-          <router-link :to="{ path: '/maintain/user' }" v-if="!isPhone">
+          <!-- <router-link :to="{ path: '/maintain/user' }" v-if="!isPhone">
             <el-dropdown-item>个人中心</el-dropdown-item>
-          </router-link>
+          </router-link> -->
           <el-dropdown-item @click.native="logout">
             <span>退出</span>
           </el-dropdown-item>

@@ -3,7 +3,7 @@
     class="page-account"
     :style="
       backgroundImages
-        ? { backgroundImage: 'url(' + backgroundImages + ')' }
+        ? { backgroundImage: 'url(' + backgroundImageMo + ')' }
         : { backgroundImage: 'url(' + backgroundImageMo + ')' }
     "
   >
@@ -653,5 +653,6 @@ $light_gray: #eee;
 .title {
   font-size: 30px;
   margin: 20px;
+  // color: #FFF;
 }
 </style>

@@ -5,10 +5,10 @@
         <router-view :key="key" />
       </keep-alive>
     </transition>
-    <div class="footers">
+    <!-- <div class="footers">
       <el-link v-for="item in links" :key="item.key" :href="item.href" target="_blank" class="mr15 mb20">{{item.title}}</el-link>
       <div class="title mb15" v-text="copyright"></div>
-    </div>
+    </div> -->
   </section>
 </template>
 

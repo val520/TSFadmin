@@ -12,7 +12,8 @@
         <settings />
       </right-panel>
     </div>
-    <div class="open-image" @click="clear" v-if="openImage"><img src="@/assets/imgs/pc1.png" alt=""></div>
+    <!-- 首次加载的阴影弹窗 -->
+    <!-- <div class="open-image" @click="clear" v-if="openImage"><img src="@/assets/imgs/pc1.png" alt=""></div> -->
   </div>
 </template>
 
